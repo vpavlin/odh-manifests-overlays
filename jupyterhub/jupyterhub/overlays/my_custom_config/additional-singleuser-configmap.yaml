@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: jupyterhub-additional-singleuser-profiles
+  labels:
+    jupyterhub: singleuser-profiles
+data:
+  jupyterhub-singleuser-profiles.yaml: |
+      profiles:
+      - name: Additional Profile
+        env:
+          - name: ADDITIONAL_VARIABLE
+            value: "Some value"
+        resources:
+          requests:
+            memory: 1Gi
+            cpu: 1
+          limits:
+            memory: 2Gi
+            cpu: 2
+

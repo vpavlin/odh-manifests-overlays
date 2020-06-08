@@ -1,3 +1,7 @@
+## _**NOTE:** This repository is en example of how to extend [Open Data Hub manifests](https://github.com/opendatahub-io/odh-manifests). For more details, read the documentation on [opendatahub.io](https://opendatahub.io/docs/administration/installation-customization/customization.html)_
+
+------
+
 # Open Data Hub Manifests
 A repository for [Open Data Hub](https://opendatahub.io) components Kustomize manifests.
 
